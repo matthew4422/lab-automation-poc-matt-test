@@ -1,9 +1,9 @@
 terraform {
   backend "remote" {
-    organization = "pwc-ca-cloud-eng"
+    organization = "matt-cloud-eng"
 
     workspaces {
-      name = "lab-automation-poc"
+      name = "lab-automation-poc-matt-test"
     }
   }
 

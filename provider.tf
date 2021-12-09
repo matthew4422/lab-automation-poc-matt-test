@@ -3,7 +3,7 @@ provider "google" {
 }
 
 provider "azuread" {
-  tenant_id = "c2034e74-3018-47d7-9fa6-097954cb669c"
+  tenant_id = "17334a0e-665e-414f-bf0d-de7b0e7f3025"
 }
 
 provider "azurerm" {

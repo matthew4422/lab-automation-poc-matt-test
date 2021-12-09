@@ -5,6 +5,7 @@ module "azuread" {
   azuread_admin_group = var.azuread_admin_group
 }
 
+/*
 module "gcp-labs" {
   source  = "./gcp-labs/"
 
@@ -15,6 +16,7 @@ module "gcp-labs" {
   gcp_org                = var.gcp_org
   gcp_billing_account_id = var.gcp_billing_account_id
 }
+*/
 
 module "azure-labs" {
   source  = "./azure-labs/"
